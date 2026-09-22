@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：golang 系统设计日志检索排查线上问题实操技巧
+简介：接口幂等性防重复请求实现，实现接口幂等逻辑，避免重复提交请求产生多条脏数据，保障业务数据安全。
+ | 原文链接：http://book.hzmssw.asia/blog/2012480.sHtMl
+
+原标题：golang http 代理客户端配置
+简介：golang go 程序 CPU 占用高定位步骤，pprof 定位热点函数，分析 CPU 高占用，优化耗时代码逻辑。
+ | 原文链接：http://book.hzmssw.asia/blog/7480378.sHtMl
+
+原标题：golang 系统设计大文件上传架构
+简介：MySQL 慢查询索引优化实战，抓取慢查询 SQL，分析执行计划，新增或者调整索引，提升 SQL 执行速度。
+ | 原文链接：http://book.hzmssw.asia/blog/8269147.sHtMl
+
+原标题：Fork 开源项目同步上游代码
+简介：golang go‑zero api 接口开发与路由，go‑zero 编写 api 定义文件，生成代码开发 http 接口。
+ | 原文链接：http://book.hzmssw.asia/blog/5241148.sHtMl
+
+原标题：golang k8s 本地 minikube 调试应用
+简介：手写简易 ORM 理解对象映射，手写极简 ORM 示例，理解对象与数据库表字段映射底层原理。
+ | 原文链接：http://book.hzmssw.asia/blog/2679148.sHtMl
+
+原标题：golang 系统设计容器 OOM 故障完整排查
+简介：golang 分布式事务 seata go 客户端，seata‑go 实现分布式事务，保证跨库业务数据最终一致性。
+ | 原文链接：http://book.hzmssw.asia/blog/1801469.sHtMl
+
+原标题：浏览器缓存强制刷新方案
+简介：golang toml 配置文件解析教程，Go 解析 Toml 格式配置，适用于项目配置管理场景。
+ | 原文链接：http://book.hzmssw.asia/blog/9371471.sHtMl
+
+原标题：golang 系统设计序列化性能选型对比
+简介：golang 文件上传下载接口开发，Go 开发文件上传下载接口，校验文件，处理文件读写存储逻辑。
+ | 原文链接：http://book.hzmssw.asia/blog/6046033.sHtMl
+
+原标题：golang 系统设计自动化测试 ci 流水线集成实操
+简介：golang 内存持续上涨定位思路，区分内存泄漏、缓存占用、GC 参数不合理，分步定位内存持续走高。
+ | 原文链接：http://book.hzmssw.asia/blog/4835814.sHtMl
+
+原标题：golang 系统设计定时任务动态启停配置方案
+简介：eslint prettier 代码规范落地，配置 eslint 与 prettier，做代码检查格式化，统一前端团队代码风格。
+ | 原文链接：http://book.hzmssw.asia/blog/1524792.sHtMl
+
+原标题：开发复盘：大数据量分页避免offset性能问题
+简介：golang 本地消息表实现最终一致性，本地消息表 + 定时任务轮询，可靠消息实现分布式事务。
+ | 原文链接：http://book.hzmssw.asia/blog/3893669.sHtMl
+
+原标题：开发记录：接口请求日志记录完整中间件实现
+简介：golang sync.Map 高并发 map 使用场景，sync.Map 适用场景，读写实操，对比普通 map 加锁性能差异。
+ | 原文链接：http://book.hzmssw.asia/blog/1514580.sHtMl
+
+原标题：TCP 心跳检测清理僵死连接
+简介：golang 容器健康检查接口开发，Go 开发 HTTP 健康接口，供容器编排工具探测实例存活状态。
+ | 原文链接：http://book.hzmssw.asia/blog/9278255.sHtMl
+
+原标题：nestjs 框架模块化项目搭建
+简介：golang mock 单元测试编写技巧，单元测试 mock 外部依赖，隔离数据库网络，只测试业务逻辑本身。
+ | 原文链接：http://book.hzmssw.asia/blog/2602587.sHtMl
+
+原标题：文件句柄耗尽资源泄露处理
+简介：接口压测定位系统性能瓶颈，使用压测工具对接口施压，观察指标，定位系统性能瓶颈点。
+ | 原文链接：http://book.hzmssw.asia/blog/3719270.sHtMl
+
+原标题：性能复盘：网络IO优化减少接口等待时间
+简介：golang gin 静态资源访问配置，Gin 配置静态资源目录，直接对外提供静态文件访问服务。
+ | 原文链接：http://book.hzmssw.asia/blog/3802580.sHtMl
+
+原标题：Practice：手写简易限流组件，计数器、令牌桶实现
+简介：﻿从零搭建本地开发环境完整教程，手把手完成环境配置，梳理踩坑点，帮助开发者快速搭建可用的本地开发环境，降低上手成本。
+ | 原文链接：http://book.hzmssw.asia/blog/0591479.sHtMl
+
+原标题：效率笔记：VSCode插件集合后端前端开发效率
+简介：内网测试服务搭建团队调试，配置本地服务内网可访问，团队成员能够访问调试，方便前后端联调与内部演示。
+ | 原文链接：http://book.hzmssw.asia/blog/4346915.sHtMl
+
+原标题：调优方案：Web服务内核socket参数调优
+简介：golang 优雅处理 http 超时设置，Go HTTP 请求设置各类超时，防止请求无限阻塞，保护协程与连接。
+ | 原文链接：http://book.hzmssw.asia/blog/0269258.sHtMl
+
+原标题：开发记录：搭建CI/CD流水线自动构建部署项目
+简介：golang tcp keepalive 参数程序配置，go 程序设置 tcp keepalive，操作系统 tcp 保活参数，清理僵死连接。
+ | 原文链接：http://book.hzmssw.asia/blog/6348113.sHtMl
+
+原标题：包管理器依赖冲突解决方案
+简介：golang os.Exit 退出程序注意 defer 不执行，os.Exit 会直接退出，不会执行 defer，优雅退出不要直接 os.Exit。
+ | 原文链接：http://book.hzmssw.asia/blog/6046927.sHtMl
+
+原标题：新手教程：Git撤销错误提交的几种常用方式
+简介：配置与镜像分离防止信息泄露，业务配置不打包进镜像，外部挂载配置，避免密钥配置随镜像泄露。
+ | 原文链接：http://book.hzmssw.asia/blog/2613669.sHtMl
+
+原标题：Architecture：日志、监控、告警整套可观测架构
+简介：数据库主从延迟业务兼容处理，业务适配主从复制延迟，避免读取从库拿到还未同步完成旧数据。
+ | 原文链接：http://book.hzmssw.asia/blog/1168149.sHtMl
+
+原标题：golang grafana 面板变量模板制作
+简介：内网测试服务搭建团队调试，配置本地服务内网可访问，团队成员能够访问调试，方便前后端联调与内部演示。
+ | 原文链接：http://book.hzmssw.asia/blog/3935891.sHtMl
+
+原标题：golang docker volume 数据持久化
+简介：golang 设置 net.Conn 读写超时，每次读写设置超时，防止连接永久阻塞挂起不返回。
+ | 原文链接：http://book.hzmssw.asia/blog/1025903.sHtMl
+
+原标题：Practice：实现文件监控自动重启开发服务工具
+简介：限流规则误拦截正常请求修复，修正限流规则阈值，避免合法用户被限流拦截，兼顾防护与可用性。
+ | 原文链接：http://book.hzmssw.asia/blog/6058805.sHtMl
+
+原标题：golang k8s ingress 路由域名转发
+简介：手写简易 ORM 理解对象映射，手写极简 ORM 示例，理解对象与数据库表字段映射底层原理。
+ | 原文链接：http://book.hzmssw.asia/blog/0413660.sHtMl
+
+原标题：golang k8s liveness readiness 探针
+简介：Redis 分布式锁高并发安全实现，基于 Redis 实现分布式锁，处理锁过期、续期，保障集群并发安全。
+ | 原文链接：http://book.hzmssw.asia/blog/8225813.sHtMl
+
+原标题：代码模块化组件化拆分思路
+简介：golang 参数校验业务接口处理，Go 接口入参参数校验，拦截非法入参，减少业务层参数判断代码。
+ | 原文链接：http://book.hzmssw.asia/blog/8270325.sHtMl
+
+原标题：调优方案：JVM内存参数优化，降低GC频率
+简介：react 状态管理方案选型对比，对比 Redux、Zustand 等 React 状态管理库，分析适用业务场景辅助选型。
+ | 原文链接：http://book.hzmssw.asia/blog/1591370.sHtMl
+
+原标题：golang 系统设计缓存更新策略 cache aside 讲解
+简介：TCP 长连接参数优化 TIME_WAIT，调整 TCP 内核参数，优化长连接，减少大量 TIME_WAIT 连接占用资源。
+ | 原文链接：http://book.hzmssw.asia/blog/0480361.sHtMl
+
+原标题：golang docker 部署 es 本地开发
+简介：nodejs 集成测试业务流程编写，编写 Node 集成测试，调用真实接口，验证完整业务链路执行结果。
+ | 原文链接：http://book.hzmssw.asia/blog/9357037.sHtMl
+
+原标题：安全复盘：Redis命令注入风险防护手段
+简介：golang systemd 配置 go 服务部署，编写 systemd unit 文件管理 go 服务，开机自启、崩溃自动重启。
+ | 原文链接：http://book.hzmssw.asia/blog/9590149.sHtMl
+
+原标题：golang 系统设计第三方接口 mock 单元测试
+简介：golang go 泛型约束与类型集合，泛型 type set 约束，限制泛型支持类型，写出安全泛型代码。
+ | 原文链接：http://book.hzmssw.asia/blog/6158035.sHtMl
+
+原标题：项目目录结构规范化最佳实践
+简介：golang go 死锁检测工具，静态检查、运行检测，发现 channel 锁导致死锁问题。
+ | 原文链接：http://book.hzmssw.asia/blog/3612148.sHtMl
+
+原标题：坑点：Docker资源限制未设置导致宿主机卡死
+简介：nodejs 日志轮转生产环境配置，配置 Node 日志轮转切割，防止日志文件无限变大，适配生产环境。
+ | 原文链接：http://book.hzmssw.asia/blog/6462260.sHtMl
+
+原标题：golang redis 热点 key 业务规避
+简介：golang aes 对称加密解密示例，AES 对称加密解密实现，业务敏感数据加密存储传输。
+ | 原文链接：http://book.hzmssw.asia/blog/1501368.sHtMl
+
+原标题：接口限流逻辑简单模拟实现
+简介：前端水印防信息泄露实现，实现网页水印功能，页面叠加用户信息水印，防止页面截图信息外泄。
+ | 原文链接：http://book.hzmssw.asia/blog/5002471.sHtMl
+
+原标题：golang docker 部署 es 本地开发
+简介：正则表达式文本处理实战案例，结合业务场景演示正则匹配、提取、替换，处理手机号、邮箱等各类文本校验需求。
+ | 原文链接：http://book.hzmssw.asia/blog/2893693.sHtMl
+
+原标题：记一次分库分表路由计算错误数据写入错误分片
+简介：golang gin 获取客户端真实 IP，多层代理场景正确拿到用户真实访问 IP，避免拿到网关代理内网地址。
+ | 原文链接：http://book.hzmssw.asia/blog/6035726.sHtMl
+
+
+二、踩坑排错｜Troubleshooting
+原标题：Performance：避免全表扫描索引失效场景汇总
+简介：CI 构建缓存加速编译速度，开启 CI 流水线依赖缓存，复用上一次构建依赖包，缩短流水线构建耗时。
+ | 原文链接：http://book.hzmssw.asia/blog/9381479.sHtMl
+
+原标题：Architecture：鉴权授权系统架构设计思路
+简介：golang url 解析路径参数提取，url.Parse 解析 url，获取协议主机路径查询参数。
+ | 原文链接：http://book.hzmssw.asia/blog/2905604.sHtMl
+
+原标题：防火墙 IP 白名单回调接口放行
+简介：golang httptest 模拟 http 请求单元测试，httptest 模拟 http 请求，测试 http handler 逻辑不用启动服务。
+ | 原文链接：http://book.hzmssw.asia/blog/0501559.sHtMl
+
+原标题：项目实践：灰度发布简易方案落地实践
+简介：golang e2e 端到端测试 go 接口，编写 e2e 测试，完整模拟用户请求，校验整套业务链路正确性。
+ | 原文链接：http://book.hzmssw.asia/blog/2602148.sHtMl
+
+原标题：避坑：版本升级之后项目直接无法启动
+简介：golang go ring 环形容器循环队列，ring 环形链表实现循环队列，环形缓冲区业务场景。
+ | 原文链接：http://book.hzmssw.asia/blog/4825805.sHtMl
+
+原标题：项目实践：消息队列消息堆积模拟处理实践
+简介：golang jaeger 链路追踪部署对接，jaeger 接收 opentelemetry 链路数据，可视化完整调用链路。
+ | 原文链接：http://book.hzmssw.asia/blog/0492470.sHtMl
+
+原标题：golang 系统设计分布式任务调度
+简介：简易网关请求路由过滤模拟，模拟网关基础能力，实现请求路由转发、简单过滤，理解网关核心工作逻辑。
+ | 原文链接：http://book.hzmssw.asia/blog/8378143.sHtMl
+
+原标题：golang 系统设计缓存优化落地实操指南
+简介：golang excel 大文件读取流式解析，流式读取大 excel 文件，逐行解析数据，不加载全部内容进内存。
+ | 原文链接：http://book.hzmssw.asia/blog/0489258.sHtMl
+
+原标题：架构笔记：多环境隔离架构开发测试生产隔离
+简介：golang go 无锁并发编程技巧，原子操作 sync/atomic，简单场景替换锁，提升并发性能。
+ | 原文链接：http://book.hzmssw.asia/blog/9678146.sHtMl
+
+原标题：golang k8s 网络策略网络隔离设置
+简介：golang go 容器 heap 堆实现优先队列，实现 heap 接口，构建优先队列，任务优先级调度。
+ | 原文链接：http://book.hzmssw.asia/blog/3722478.sHtMl
+
+原标题：实战：基于内存实现简单消息广播组件
+简介：内网测试服务搭建团队调试，配置本地服务内网可访问，团队成员能够访问调试，方便前后端联调与内部演示。
+ | 原文链接：http://book.hzmssw.asia/blog/7116488.sHtMl
+
+原标题：新手快速上手 Git 版本控制实操指南
+简介：JWT 工具封装令牌刷新过期，封装 JWT 工具类，实现令牌生成、校验、过期刷新整套令牌管理逻辑。
+ | 原文链接：http://book.hzmssw.asia/blog/6046913.sHtMl
+
+原标题：避坑：文件锁处理不当多进程竞争死锁
+简介：golang cgo 性能开销避坑指南，cgo 调用开销，减少频繁 cgo 调用，规避 cgo 带来内存泄漏风险。
+ | 原文链接：http://book.hzmssw.asia/blog/1691378.sHtMl
+
+原标题：golang gin 静态资源访问配置
+简介：数据库死锁成因规避方案，讲解数据库死锁产生条件，给出业务层面规避手段，减少死锁事件发生。
+ | 原文链接：http://book.hzmssw.asia/blog/5912159.sHtMl
+
+原标题：无用对象回收抑制内存上涨
+简介：多版本开发环境共存配置，实现同一工具多版本并存，快速切换不同版本，适配不同项目对版本的差异化需求。
+ | 原文链接：http://book.hzmssw.asia/blog/0480280.sHtMl
+
+原标题：零基础理解数据库事务基础ACID概念
+简介：nodejs 日志轮转生产环境配置，配置 Node 日志轮转切割，防止日志文件无限变大，适配生产环境。
+ | 原文链接：http://book.hzmssw.asia/blog/4825700.sHtMl
+
+原标题：gRPC 服务端客户端入门示例
+简介：CI 构建缓存加速编译速度，开启 CI 流水线依赖缓存，复用上一次构建依赖包，缩短流水线构建耗时。
+ | 原文链接：http://book.hzmssw.asia/blog/4146957.sHtMl
+
+原标题：golang 系统设计配置本地缓存降级策略方案
+简介：golang go yaml 解析自定义类型，yaml 自定义序列化，时间、特殊类型自定义解析逻辑。
+ | 原文链接：http://book.hzmssw.asia/blog/4835036.sHtMl
+
+原标题：部署复盘：服务启动顺序依赖处理方案
+简介：golang go 多版本管理 gvm 使用，gvm 管理多个 go sdk 版本，快速切换不同 go 版本做项目开发。
+ | 原文链接：http://book.hzmssw.asia/blog/3724921.sHtMl
+
+原标题：golang redis 热点 key 业务规避
+简介：golang mysql 事务回滚异常处理，Go MySQL 事务异常捕获，正确回滚事务，保证异常场景数据回滚。
+ | 原文链接：http://book.hzmssw.asia/blog/0693470.sHtMl
+
+原标题：入门实践：实现简单文件读写功能
+简介：golang jaeger 链路追踪部署对接，jaeger 接收 opentelemetry 链路数据，可视化完整调用链路。
+ | 原文链接：http://book.hzmssw.asia/blog/8349923.sHtMl
+
+原标题：golang 系统设计日志检索排查线上问题实操技巧
+简介：golang kitex 中间件与元数据传递，kitex 自定义中间件，透传 traceId 鉴权元数据，统一处理请求。
+ | 原文链接：http://book.hzmssw.asia/blog/6057269.sHtMl
+
+原标题：GraphQL 接口查询优化实操
+简介：磁盘 inode 耗尽文件创建失败，排查磁盘 inode 占用，清理大量小文件，恢复文件创建能力。
+ | 原文链接：http://book.hzmssw.asia/blog/7157810.sHtMl
+
+原标题：性能复盘：热点key导致RedisCPU飙升优化
+简介：golang aes cbc gcm 模式加密对比，AES‑CBC AES‑GCM 模式加密解密，理解两种模式差异选型。
+ | 原文链接：http://book.hzmssw.asia/blog/1480350.sHtMl
+
+原标题：golang 系统设计缓存过期时间设置原则梳理
+简介：golang os.Signal 信号监听完整示例，signal.Notify 监听信号，缓冲 channel 防止信号丢失。
+ | 原文链接：http://book.hzmssw.asia/blog/1802593.sHtMl
+
+原标题：golang 系统设计采样策略降低链路存储开销
+简介：golang viper 多源配置管理实操，viper 读取配置文件环境变量命令行参数，多源配置优先级管理。
+ | 原文链接：http://book.hzmssw.asia/blog/6046947.sHtMl
+
+原标题：golang 系统设计网关 ssl 证书配置更新实操
+简介：golang 模糊测试 go fuzz 基础编写，Fuzz 测试函数，自动生成随机输入，发现代码崩溃 panic。
+ | 原文链接：http://book.hzmssw.asia/blog/3847580.sHtMl
+
+原标题：golang gitlab ci 配置自动构建镜像
+简介：nodejs 消息队列消费服务开发，Node 开发消息队列消费端，监听队列消息执行业务逻辑，异步解耦业务。
+ | 原文链接：http://book.hzmssw.asia/blog/0783570.sHtMl
+
+原标题：golang 系统设计回调异步处理防止超时阻塞
+简介：golang redis geo 地理位置存储查询，Redis GEO 存储经纬度，查询附近点位，实现附近人业务功能。
+ | 原文链接：http://book.hzmssw.asia/blog/7468257.sHtMl
+
+原标题：新手指南：读懂项目构建脚本作用
+简介：golang pdf 生成 go 服务端生成 pdf，服务端动态生成 pdf 报表文件，直接输出下载给到前端。
+ | 原文链接：http://book.hzmssw.asia/blog/3825479.sHtMl
+
+原标题：从零搭建简单的身份登录模拟示例
+简介：golang go ring 环形容器循环队列，ring 环形链表实现循环队列，环形缓冲区业务场景。
+ | 原文链接：http://book.hzmssw.asia/blog/0491036.sHtMl
+
+原标题：nodejs 集群模式多核利用实现
+简介：golang go http 文件服务器自定义，http.FileServer 自定义 FileSystem，拦截访问，增加鉴权逻辑。
+ | 原文链接：http://book.hzmssw.asia/blog/5047036.sHtMl
+
+原标题：golang prometheus 指标暴露实现
+简介：golang jwt jwk 公钥验证令牌，使用 jwk 公钥校验 jwt，非对称方式签发校验令牌，提升安全性。
+ | 原文链接：http://book.hzmssw.asia/blog/2614698.sHtMl
+
+原标题：安全笔记：XSS跨站脚本攻击防御落地实践
+简介：golang go 容器 heap 堆实现优先队列，实现 heap 接口，构建优先队列，任务优先级调度。
+ | 原文链接：http://book.hzmssw.asia/blog/7468059.sHtMl
+
+原标题：性能笔记：操作系统文件句柄、虚拟内存调优
+简介：golang CPU 绑定亲和性设置 go 程序，设置进程 CPU 亲和绑定核心，减少 CPU 调度开销，提升计算性能。
+ | 原文链接：http://book.hzmssw.asia/blog/9402379.sHtMl
+
+原标题：golang 系统设计开源版本发布 changelog 维护
+简介：golang 接口返回统一封装工具，封装 Go 接口统一返回工具，标准化成功失败返回结构体。
+ | 原文链接：http://book.hzmssw.asia/blog/6153147.sHtMl
+
+原标题：golang lru 缓存淘汰算法编写
+简介：golang atomic 原子操作整数，atomic 加减比较交换，无锁更新整型变量，简单计数器场景。
+ | 原文链接：http://book.hzmssw.asia/blog/1492691.sHtMl
+
+原标题：golang jwt 鉴权中间件完整示例
+简介：golang go 基准测试 benchmark 编写，Benchmark 性能基准测试，测量函数执行耗时内存分配情况。
+ | 原文链接：http://book.hzmssw.asia/blog/5945815.sHtMl
+
+原标题：零基础理解幂等性基础概念与场景
+简介：Git 误提交撤销回退实操教程，演示多种撤销提交方式，区分已经推送远程和本地未提交场景，处理误提交代码。
+ | 原文链接：http://book.hzmssw.asia/blog/6046927.sHtMl
+
+原标题：vue3 组合式 API 业务开发实战
+简介：golang hystrix 模式简易熔断实现，简易熔断组件，错误率达到阈值触发熔断，快速失败保护下游。
+ | 原文链接：http://book.hzmssw.asia/blog/3024780.sHtMl
+
+三、实战开发｜Practice
+原标题：golang mongodb 索引优化查询速度
+简介：服务熔断防止故障级联传播，实现服务熔断逻辑，下游故障时快速失败，阻止故障向上游链式扩散。
+ | 原文链接：http://book.hzmssw.asia/blog/6046793.sHtMl
+
+原标题：异步任务堆积消费能力优化
+简介：接口压测定位系统性能瓶颈，使用压测工具对接口施压，观察指标，定位系统性能瓶颈点。
+ | 原文链接：http://book.hzmssw.asia/blog/2602579.sHtMl
+
+原标题：golang 系统设计 api 文档 swagger redoc 落地
+简介：golang crypto 密码学最佳实践，go crypto 包加密签名，规避不安全算法，使用安全密码套件。
+ | 原文链接：http://book.hzmssw.asia/blog/7157691.sHtMl
+
+原标题：golang 系统设计数据库基准压测简单思路
+简介：golang 灰度发布流量权重路由实现，根据权重切分流量，部分流量访问新版本服务，实现灰度发布。
+ | 原文链接：http://book.hzmssw.asia/blog/5935937.sHtMl
+
+原标题：golang 文件上传下载接口开发
+简介：golang 数据库连接泄露排查，定位 Go 数据库连接泄露，连接没有归还池，导致连接耗尽报错。
+ | 原文链接：http://book.hzmssw.asia/blog/8213581.sHtMl
+
+原标题：开发记录：实现完整用户登录鉴权业务模块
+简介：golang runtime.Gosched 主动让出调度，长计算循环主动 Gosched，让出调度权，防止其他协程饥饿。
+ | 原文链接：http://book.hzmssw.asia/blog/4835799.sHtMl
+
+原标题：Git LFS 大文件推送失败解决
+简介：安全组端口开放网络访问，调整服务器安全组规则，开放业务需要端口，恢复外部网络访问服务。
+ | 原文链接：http://book.hzmssw.asia/blog/3015681.sHtMl
+
+原标题：坑点：gitreset误删本地代码恢复方案
+简介：golang go 多版本管理 gvm 使用，gvm 管理多个 go sdk 版本，快速切换不同 go 版本做项目开发。
+ | 原文链接：http://book.hzmssw.asia/blog/5935814.sHtMl
+
+原标题：新手指南：虚拟机WSL开发环境入门配置
+简介：golang https 客户端跳过证书校验，开发测试环境跳过 tls 证书校验，仅用于内网测试禁止生产使用。
+ | 原文链接：http://book.hzmssw.asia/blog/4924933.sHtMl
+
+原标题：golang http grpc 全链路埋点示例
+简介：golang 时间戳秒毫秒纳秒转换，Unix UnixMilli UnixNano 互相转换，区分单位避免时间逻辑 bug。
+ | 原文链接：http://book.hzmssw.asia/blog/9680358.sHtMl
+
+原标题：日志敏感信息脱敏泄露防护
+简介：时间精度统一业务判断修复，统一业务使用时间戳精度，毫秒秒区分清楚，修复时间判断逻辑错误。
+ | 原文链接：http://book.hzmssw.asia/blog/7261436.sHtMl
+
+原标题：部署实践：告警收敛避免告警风暴配置
+简介：golang go 锁竞争导致 CPU 飙升，识别锁竞争场景，减少锁粒度，优化并发逻辑降低 CPU 开销。
+ | 原文链接：http://book.hzmssw.asia/blog/1902592.sHtMl
+
+原标题：golang docker 部署 mysql 注意事项
+简介：数值 key 浮点匹配异常规避，避免浮点数作为 Redis 等存储的 key，防止精度问题引发 key 匹配失败。
+ | 原文链接：http://book.hzmssw.asia/blog/0727869.sHtMl
+
+原标题：安全实践：SQL注入产生场景与完整防御手段
+简介：golang 信号触发配置重载实践，收到 SIGUSR1 信号重新加载配置，线上无需重启刷新配置。
+ | 原文链接：http://book.hzmssw.asia/blog/0705685.sHtMl
+
+原标题：golang redis 位图用户签到统计
+简介：golang os 文件权限 mode，os.FileMode 文件权限，读写执行权限位，跨平台权限注意事项。
+ | 原文链接：http://book.hzmssw.asia/blog/1879584.sHtMl
+
+原标题：golang docker 部署 mongodb 开发环境
+简介：golang bcrypt 密码哈希加密存储，bcrypt 做用户密码哈希，加盐存储密码，保障用户密码安全。
+ | 原文链接：http://book.hzmssw.asia/blog/0827262.sHtMl
+
+原标题：css 变量主题切换方案实现
+简介：日志敏感信息脱敏泄露防护，日志打印时自动脱敏手机号身份证，避免日志输出泄露用户隐私数据。
+ | 原文链接：http://book.hzmssw.asia/blog/3993817.sHtMl
+
+原标题：golang docker 多阶段构建 go 镜像
+简介：模拟登录鉴权权限判断示例，实现简易登录流程，会话状态维护，完成接口权限校验，理解身份鉴权基础逻辑。
+ | 原文链接：http://book.hzmssw.asia/blog/4868471.sHtMl
+
+原标题：Redis 热点 key 拆分降低集群压力
+简介：golang sftp 文件上传下载操作，sftp 协议远程文件上传下载，实现服务器之间文件传输功能。
+ | 原文链接：http://book.hzmssw.asia/blog/3869181.sHtMl
+
+原标题：线上异常：接口偶发超时，完整定位过程记录
+简介：批量操作分批处理防止 OOM，大批量数据处理不一次性加载全部数据，分批循环处理，避免内存溢出。
+ | 原文链接：http://book.hzmssw.asia/blog/7468283.sHtMl
+
+原标题：实战：搭建本地对象存储兼容S3协议demo
+简介：golang csv 读写批量数据处理，Go 读写 CSV 文件，批量导入导出业务数据，处理 CSV 格式解析。
+ | 原文链接：http://book.hzmssw.asia/blog/4858395.sHtMl
+
+原标题：快速入门Nginx基础配置，反向代理示例
+简介：百万数据 Excel 导出内存优化，优化大 Excel 导出逻辑，流式输出，避免一次性加载全部数据造成 OOM。
+ | 原文链接：http://book.hzmssw.asia/blog/9625039.sHtMl
+
+原标题：DevOps：私有镜像仓库搭建与权限管控
+简介：golang 数据库连接池泄露检测逻辑，监控连接池状态，检测连接长时间未归还，告警连接泄漏问题。
+ | 原文链接：http://book.hzmssw.asia/blog/7606743.sHtMl
+
+原标题：实战：GraphQL服务搭建与CRUD实操
+简介：golang go 领域驱动 DDD 项目分层，go 项目 DDD 分层架构，领域层应用层基础设施层划分业务代码。
+ | 原文链接：http://book.hzmssw.asia/blog/9604928.sHtMl
+
+原标题：前端打包分包加载提速方案
+简介：golang 服务限流熔断降级监控完整实践，微服务防护体系，限流熔断降级指标监控告警整套落地。
+ | 原文链接：http://book.hzmssw.asia/blog/8592706.sHtMl
+
+原标题：Practice：实现熔断降级组件简单原型代码
+简介：nodejs 数据库连接池配置调优，调优 Node 数据库连接池参数，平衡性能与资源占用，避免连接耗尽。
+ | 原文链接：http://book.hzmssw.asia/blog/5270595.sHtMl
+
+原标题：定时任务周期调度 demo 开发
+简介：golang 钉钉企业微信告警消息推送，go 调用企业微信钉钉接口，推送告警通知、业务消息。
+ | 原文链接：http://book.hzmssw.asia/blog/3040292.sHtMl
+
+原标题：记一次第三方回调IP变动未更新防火墙拦截
+简介：数据库连接及时关闭连接泄漏，确保数据库连接使用完毕释放归还连接池，杜绝连接泄漏耗尽连接。
+ | 原文链接：http://book.hzmssw.asia/blog/0713536.sHtMl
+
+原标题：golang prometheus 指标暴露实现
+简介：手写简易 MQ 理解消息存储消费，手写极简消息队列 Demo，理解消息存储、投递、消费完整流程。
+ | 原文链接：http://book.hzmssw.asia/blog/6303705.sHtMl
+
+原标题：CI/CD 流水线自动构建部署落地
+简介：空指针异常判空容错处理，讲解空指针产生场景，规范判空逻辑，增加容错，避免空指针直接造成程序崩溃。
+ | 原文链接：http://book.hzmssw.asia/blog/4828959.sHtMl
+
+原标题：Docker 多阶段构建镜像瘦身
+简介：nodejs 进程间通信 IPC 实操，演示 Node.js 主进程子进程 IPC 通信，进程之间传递消息数据。
+ | 原文链接：http://book.hzmssw.asia/blog/3616140.sHtMl
+
+原标题：golang 系统设计数据库慢查询治理方案
+简介：golang 文件上传下载接口开发，Go 开发文件上传下载接口，校验文件，处理文件读写存储逻辑。
+ | 原文链接：http://book.hzmssw.asia/blog/5159402.sHtMl
+
+原标题：golang 系统设计短信发送限流降级
+简介：OAuth2 第三方登录服务搭建，搭建 OAuth2 服务，支持第三方账号登录，实现授权登录能力。
+ | 原文链接：http://book.hzmssw.asia/blog/4860584.sHtMl
+
+原标题：golang 系统设计 git 钩子自动化校验实现
+简介：nodejs 多进程任务分发处理，多进程拆分处理 CPU 密集任务，主进程分发任务，利用多核提升处理速度。
+ | 原文链接：http://book.hzmssw.asia/blog/0495036.sHtMl
+
+原标题：golang csv 读写批量数据处理
+简介：Redis 内存淘汰策略数据防丢失，合理配置 Redis 内存淘汰策略，防止内存满后误删除业务重要数据。
+ | 原文链接：http://book.hzmssw.asia/blog/2835058.sHtMl
+
+原标题：golang goroutine 池任务调度
+简介：golang excel 大文件读取流式解析，流式读取大 excel 文件，逐行解析数据，不加载全部内容进内存。
+ | 原文链接：http://book.hzmssw.asia/blog/6093817.sHtMl
+
+原标题：开发复盘：分布式会话共享多种方案实践
+简介：golang go mod 私有 git 仓库配置，配置 go mod 拉取私有仓库代码，处理私有模块依赖拉取问题。
+ | 原文链接：http://book.hzmssw.asia/blog/0315936.sHtMl
+
+原标题：golang git 提交信息规范校验
+简介：golang 灰度发布流量权重路由实现，根据权重切分流量，部分流量访问新版本服务，实现灰度发布。
+ | 原文链接：http://book.hzmssw.asia/blog/1836462.sHtMl
+
+原标题：新手教程：Gittag版本标签打标签实操
+简介：golang bufio.Scanner 按行读取大文件，Scanner 逐行读取文本文件，处理超大日志 csv。
+ | 原文链接：http://book.hzmssw.asia/blog/8519070.sHtMl
+
+原标题：golang 系统设计指标埋点代码低侵入实现
+简介：golang 反向代理 http 服务开发，手写简易 http 反向代理，转发请求，修改请求头响应头。
+ | 原文链接：http://book.hzmssw.asia/blog/9393817.sHtMl
+
+四、架构设计｜Architecture
+原标题：axios 二次封装请求拦截处理
+简介：golang mysql 长连接检测保活设置，配置 mysql 连接保活检测，剔除失效连接，避免拿到断开无效数据库连接。
+ | 原文链接：http://book.hzmssw.asia/blog/1826246.sHtMl
+
+原标题：golang 系统设计 git 工作流本地开发提交流程
+简介：业务错误码体系设计方案，设计项目统一错误码，区分不同业务异常，标准化错误返回，便于前端识别处理。
+ | 原文链接：http://book.hzmssw.asia/blog/8584737.sHtMl
+
+原标题：golang 系统设计告警规则阈值设置方法论
+简介：golang docker 多阶段构建 go 镜像，Go 项目 Docker 多阶段构建，编译与运行阶段分离，大幅度缩减最终镜像体积，提升镜像分发效率。
+ | 原文链接：http://book.hzmssw.asia/blog/4869481.sHtMl
+
+原标题：Architecture：限流计数器架构时间窗口选型对比
+简介：golang mongodb go 驱动实操教程，mongo‑go‑driver 操作 mongodb，文档增删改查聚合查询。
+ | 原文链接：http://book.hzmssw.asia/blog/3059373.sHtMl
+
+原标题：Debug：序列化反序列化版本不一致解析失败
+简介：golang http MaxHeaderBytes 限制请求头，设置 http 最大请求头大小，防止超大 header 攻击。
+ | 原文链接：http://book.hzmssw.asia/blog/3040595.sHtMl
+
+原标题：新手向：开源项目依赖安装失败排查
+简介：golang cobra 命令行参数配置绑定，cobra 绑定配置文件环境变量命令行参数，多源配置合并。
+ | 原文链接：http://book.hzmssw.asia/blog/9935240.sHtMl
+
+原标题：踩坑：Docker容器内时区不一致引发的时间BUG
+简介：golang excel 简单读写操作示例，Go 实现 Excel 简单读写，业务数据导出 Excel 报表。
+ | 原文链接：http://book.hzmssw.asia/blog/8594928.sHtMl
+
+原标题：golang 系统设计分库分表本地测试调试技巧
+简介：golang 项目 go mod 依赖管理，Go Mod 管理项目依赖，下载、升级、清理依赖，解决依赖版本管理。
+ | 原文链接：http://book.hzmssw.asia/blog/7591717.sHtMl
+
+原标题：DevOps：日志标准输出容器日志收集方案
+简介：golang go‑zero 配置中心热更新，go‑zero 对接 etcd 配置中心，配置热更新无需重启服务。
+ | 原文链接：http://book.hzmssw.asia/blog/0716050.sHtMl
+
+原标题：golang context 上下文传参讲解
+简介：golang go mod vendor 本地依赖导出，导出 vendor 目录，离线环境编译项目，无需访问外网拉依赖。
+ | 原文链接：http://book.hzmssw.asia/blog/8593625.sHtMl
+
+原标题：坑点：Git工作区换行符CRLF/LF跨平台坑
+简介：react 状态管理方案选型对比，对比 Redux、Zustand 等 React 状态管理库，分析适用业务场景辅助选型。
+ | 原文链接：http://book.hzmssw.asia/blog/2527079.sHtMl
+
+原标题：前后端会话登录状态持久化
+简介：golang 漏桶算法实现接口限流，漏桶算法控制请求流出速率，平滑突发流量，削平流量峰值。
+ | 原文链接：http://book.hzmssw.asia/blog/0716030.sHtMl
+
+原标题：OpenSource：如何高效阅读大型开源项目源码
+简介：golang go 种子初始化 rand 随机，rand 初始化种子，不初始化会固定序列，理解随机数种子行为。
+ | 原文链接：http://book.hzmssw.asia/blog/4152580.sHtMl
+
+原标题：零基础理解内存溢出基础现象与表现
+简介：golang go 项目 CI github actions 配置，github actions 实现 go 项目 ci，自动测试、代码检查、编译打包镜像。
+ | 原文链接：http://book.hzmssw.asia/blog/8202927.sHtMl
+
+原标题：零基础理解会话、Cookie、Session基础
+简介：重复提交幂等防护再次讲解，梳理前端重复点击、网络重试场景，落地接口幂等，杜绝重复业务。
+ | 原文链接：http://book.hzmssw.asia/blog/9645258.sHtMl
+
+原标题：express 中间件开发业务实践
+简介：golang 字符串处理常用技巧汇总，字符串拼接、分割、替换、类型转换实操，规避字符串高频错误。
+ | 原文链接：http://book.hzmssw.asia/blog/4089594.sHtMl
+
+原标题：Docker 容器入门镜像实操教程
+简介：golang go‑zero 框架项目快速搭建，go‑zero 脚手架生成微服务项目，api rpc 服务快速开发。
+ | 原文链接：http://book.hzmssw.asia/blog/8506958.sHtMl
+
+原标题：Practice：实现IP黑名单拦截中间件实践
+简介：golang go 程序守护进程实现思路，go 程序不做 daemon 化，依靠 systemd pm2 k8s 实现进程守护。
+ | 原文链接：http://book.hzmssw.asia/blog/9600694.sHtMl
+
+?
