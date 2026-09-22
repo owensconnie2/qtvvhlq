@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：golang grpc protobuf 开发实操
+简介：golang go 输入数据校验防御，所有外部入参严格校验长度格式，防止恶意输入造成业务异常。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/65945250.html
+
+原标题：Troubleshoot：DNS解析异常导致第三方调用失败
+简介：内网 DNS 不稳定随机报错排查，定位内网 DNS 抖动问题，配置备选 DNS，解决偶现域名解析失败。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/85916958.html
+
+原标题：golang es bool 查询条件组合技巧
+简介：nodejs 跨域中间件配置细节，Express 跨域中间件配置细节，处理预检请求，修复偶现跨域失效。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/28502817.html
+
+原标题：Practice：实现数据库事务消息最终一致性demo
+简介：golang go regexp 正则预编译，regexp.MustCompile 预编译正则，不要循环内部编译正则，节省 CPU。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/19272350.html
+
+原标题：golang 系统设计 rest 错误返回格式统一规范
+简介：新手快速上手 Git 版本控制实操指南，讲解 Git 基础概念与常用命令，结合实操案例，帮助零基础用户掌握版本控制核心能力。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/04819147.html
+
+原标题：系统字符集统一乱码修复
+简介：文件读写与异常捕获代码示例，演示文件读取写入操作，增加异常捕获逻辑，规避文件不存在、权限不足导致崩溃。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/83234256.html
+
+原标题：实践：OpenAPI自动生成接口文档完整实践
+简介：golang go 爬虫请求速率控制，爬虫限频、代理轮换，设置 UA，防止爬虫被目标站点封禁 IP。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/32511920.html
+
+原标题：golang 系统设计熔断算法 hystrix 思路
+简介：golang sync.Mutex 互斥锁正确模式，互斥锁 defer Unlock，锁粒度控制，避免锁范围过大。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/08584716.html
+
+原标题：git stash 代码暂存切换分支
+简介：golang go 依赖漏洞检测 govulncheck，govulncheck 扫描依赖安全漏洞，发现项目供应链风险。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/03130262.html
+
+原标题：Hands‑on：简易事件驱动架构原型开发
+简介：golang 信号捕获程序退出处理，Go 捕获操作系统信号，做资源回收，控制程序退出流程。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/81907918.html
+
+原标题：golang mongodb 文档结构设计原则
+简介：golang rate 令牌桶限流器源码理解，拆解令牌桶限流核心逻辑，理解令牌生成消耗，掌握限流底层原理。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/85069292.html
+
+原标题：性能复盘：消息队列大量小消息性能问题优化
+简介：服务健康检查告警监控体系，搭建健康检查加告警体系，服务异常及时推送告警通知运维人员。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/96059281.html
+
+原标题：golang goroutine 池任务调度
+简介：golang word 文档生成处理 go 方案，go 生成 word 文档报表，填充文本表格，输出 docx 文件。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/95958473.html
+
+原标题：方案设计：多租户系统架构三种实现模式对比
+简介：golang cgo 内存管理 C 与 Go 内存，区分 Go 内存 C 堆内存，防止 cgo 内存泄漏，正确释放 C 内存。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/96069506.html
+
+原标题：批量操作分批处理防止 OOM
+简介：golang go mod exclude 排除依赖版本，exclude 排除有问题依赖版本，规避有 bug 的第三方包。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/48675817.html
+
+原标题：golang 系统设计 websocket 协议原理梳理
+简介：内网 DNS 不稳定随机报错排查，定位内网 DNS 抖动问题，配置备选 DNS，解决偶现域名解析失败。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/63947473.html
+
+原标题：golang 系统设计监控告警体系搭建思路
+简介：前端 pdf 预览渲染方案对比，对比前端 PDF 预览库，分析性能、兼容性，给出业务选型参考。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/74240373.html
+
+原标题：DevOps：CI构建产物缓存复用加速编译
+简介：golang 空接口 interface {} 类型处理，interface {} 存储任意类型，类型转换，处理泛型之前通用数据。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/05352583.html
+
+原标题：开发记录：数据库悲观锁乐观锁业务场景实践
+简介：单元测试用例编写入门实操，讲解测试用例设计思路，演示基础单元测试代码，提升代码健壮性，提前发现逻辑 bug。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/87179252.html
+
+原标题：部署实践：HTTPS证书自动续期配置实践
+简介：百万数据 Excel 导出内存优化，优化大 Excel 导出逻辑，流式输出，避免一次性加载全部数据造成 OOM。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/63728362.html
+
+原标题：golang docker compose 环境变量
+简介：golang 数据库连接池泄露检测逻辑，监控连接池状态，检测连接长时间未归还，告警连接泄漏问题。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/07169381.html
+
+原标题：golang 系统设计灰度发布流量切分实现
+简介：批量异步处理系统业务落地，构建批量异步处理系统，把耗时业务异步化，提升接口响应速度。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/85958580.html
+
+原标题：多环境配置中心灵活切换方案
+简介：vite 插件开发自定义构建逻辑，开发自定义 vite 插件，介入构建生命周期，实现项目个性化构建逻辑。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/93847351.html
+
+原标题：安全笔记：请求头伪造IP漏洞防护
+简介：golang 定时任务 cron 使用指南，Go 使用 Cron 库实现定时任务，配置 corn 表达式调度业务任务。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/74803039.html
+
+原标题：零基础理解依赖管理与包管理器
+简介：golang 信号量 semaphore 并发限制，基于 semaphore 实现并发数量控制，保护数据库、第三方接口不被打满。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/17179192.html
+
+原标题：golang 系统设计回调异步处理防止超时阻塞
+简介：服务器时钟同步任务错乱修复，配置服务器 NTP 时间同步，保证集群所有机器时间保持一致。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/73382803.html
+
+原标题：CORS 跨域问题多种解决方案
+简介：golang gorm 原生 SQL 执行处理，复杂场景执行原生 SQL，处理返回结果集，兼顾性能与灵活性。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/61463595.html
+
+原标题：golang 系统设计缓存故障降级处理方案
+简介：Git 分支切换合并删除完整操作，实操分支全生命周期操作，包含切换、合并、删除，熟悉日常开发分支处理流程。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/51615847.html
+
+原标题：nodejs 消息队列消费服务开发
+简介：golang 布隆过滤器实现去重，Go 实现布隆过滤器，海量数据去重，节省内存开销，提升判断效率。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/21503928.html
+
+原标题：静态资源 404 路径打包修复
+简介：golang 设置 net.Conn 读写超时，每次读写设置超时，防止连接永久阻塞挂起不返回。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/63725157.html
+
+原标题：golang 系统设计 span 埋点业务代码最小侵入思路
+简介：golang 分表跨表 join 查询处理方案，分表后跨分片关联查询解决方案，业务层聚合代替数据库 join。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/28362595.html
+
+原标题：golang k8s 持久化 pv pvc 使用实操
+简介：JSON XML 数据解析处理示例，演示两种格式数据解析与序列化，增加异常捕获，处理格式错乱导致解析失败。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/63624030.html
+
+原标题：多版本开发环境共存配置
+简介：项目语义化版本号规范管理，遵循语义化版本规范管理项目版本，明确主次版本变更含义。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/40459170.html
+
+原标题：golang 系统设计配置热更新不重启服务实现
+简介：golang go 基准测试 benchmark 编写，Benchmark 性能基准测试，测量函数执行耗时内存分配情况。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/92029191.html
+
+原标题：业务错误码完整落地实践
+简介：golang icmp ping 程序实现，go 实现 ping 工具发送 icmp 报文，检测网络连通性。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/41516258.html
+
+原标题：方案设计：多租户系统架构三种实现模式对比
+简介：golang grpc 客户端流上传数据，客户端流式请求，客户端分批上传数据到服务端，适合大文件传输。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/30576959.html
+
+原标题：golang 系统设计网关缓存静态资源实现思路
+简介：线程调度优化减少上下文切换，优化线程数量，减少线程频繁切换，降低 CPU 上下文切换开销。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/07463806.html
+
+原标题：golang viper 配置热更新实操
+简介：HTTP 状态码请求头完整梳理，汇总常用 HTTP 状态码与请求头含义，帮助快速看懂网络请求，排查接口通信问题。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/20492537.html
+
+原标题：golang redis 缓存更新策略讲解
+简介：OpenAPI 自动接口文档生成，集成 OpenAPI 工具，自动扫描代码生成接口文档，减少文档维护成本。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/96130204.html
+
+原标题：运维笔记：系统内核参数调优生产服务器
+简介：接口签名验签完整安全方案，一套完整接口签名方案，包含签名生成、请求携带、服务端验签校验。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/63726369.html
+
+
+二、踩坑排错｜Troubleshooting
+原标题：golang 系统设计防爬虫简单策略
+简介：golang csv 读写批量数据处理，Go 读写 CSV 文件，批量导入导出业务数据，处理 CSV 格式解析。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/18381706.html
+
+原标题：Hands‑on：简易熔断逻辑状态机原型实现
+简介：开发代理服务网络限制解决，搭建本地代理服务，解决开发环境网络访问受限，实现外部接口正常调用。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/92018846.html
+
+原标题：golang 配置热更新不重启服务
+简介：golang go 领域驱动 DDD 项目分层，go 项目 DDD 分层架构，领域层应用层基础设施层划分业务代码。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/85054028.html
+
+原标题：golang 系统设计技术方案评审关注点清单参考
+简介：golang net.Listener 包装自定义监听器，包装 Listener 做连接计数、连接拦截，扩展网络能力。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/29497362.html
+
+原标题：Hands‑on：编写shell健康检查自动重启脚本
+简介：SSH 密钥配置 GitHub 免密登录，分步生成配置 SSH 密钥，实现 GitHub 免密推送拉取，免去重复输入账号密码的麻烦。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/85347068.html
+
+原标题：Performance：数据库大表优化，冷热数据分离
+简介：golang GC 调优 GOGC 参数调整，调整 GOGC 阈值，控制 GC 触发时机，权衡内存占用与 CPU 开销。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/87450928.html
+
+原标题：golang 日志与链路 ID 关联打印
+简介：golang go json 序列化自定义字段，json 标签控制字段名称、忽略字段、omitempty 空值忽略。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/30602891.html
+
+原标题：部署复盘：GitHubActions完整自动化配置
+简介：golang jaeger 链路追踪部署对接，jaeger 接收 opentelemetry 链路数据，可视化完整调用链路。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/03130303.html
+
+原标题：DevOps：CI构建产物缓存复用加速编译
+简介：golang gorm select 指定查询字段，指定查询字段，避免查询全部字段，减少数据传输，提升查询性能。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/07172404.html
+
+原标题：golang 系统设计降级策略开关配置方案
+简介：接口签名验签完整安全方案，一套完整接口签名方案，包含签名生成、请求携带、服务端验签校验。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/85950695.html
+
+原标题：Docker Compose 一键搭建本地栈
+简介：golang base64 编码解码实操，Go Base64 编码解码示例，处理业务场景 Base64 格式数据转换。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/29402646.html
+
+原标题：部署复盘：静态站点部署CDN完整流程
+简介：golang os.Exit 退出程序注意 defer 不执行，os.Exit 会直接退出，不会执行 defer，优雅退出不要直接 os.Exit。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/17161792.html
+
+原标题：多环境配置中心灵活切换方案
+简介：日志驱动异常日志不输出修复，排查日志驱动配置，修复日志写入配置，恢复程序正常日志输出。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/92040373.html
+
+原标题：安全实践：备份文件访问权限安全管控
+简介：golang go ring 环形容器循环队列，ring 环形链表实现循环队列，环形缓冲区业务场景。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/87462573.html
+
+原标题：golang docker 容器资源限制设置
+简介：程序性能指标 CPU 内存监控，讲解基础性能指标含义，简单实现监控采集，初步定位程序运行性能瓶颈。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/18404036.html
+
+原标题：golang 系统设计监控告警阈值设置思路
+简介：golang 配置热更新不重启服务，实现配置热加载，监听配置变更，更新内存配置，无需重启服务实例。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/18281692.html
+
+原标题：nodejs 日志轮转生产环境配置
+简介：golang go race 竞态检测工具，‑race 检测数据竞争，编译运行检测并发读写数据竞争 bug。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/63796969.html
+
+原标题：axios 二次封装请求拦截处理
+简介：golang 数据库连接泄露排查，定位 Go 数据库连接泄露，连接没有归还池，导致连接耗尽报错。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/18271392.html
+
+原标题：性能笔记：DNS缓存优化减少域名解析开销
+简介：极简方式搭建个人技术文档站点，使用轻量化工具快速部署文档站点，支持 markdown 编写，实现知识沉淀与对外分享。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/63736369.html
+
+原标题：效率笔记：gitlog高效查询历史提交技巧
+简介：Shell 运维脚本服务器效率提升，编写常用运维 Shell 脚本，自动化服务器运维操作，减少手工重复工作。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/18281691.html
+
+原标题：golang 系统设计秒杀防超卖方案
+简介：Docker 容器网络不通排查，排查容器网络模式、端口映射、防火墙，解决容器之间、容器外部网络不通。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/74806950.html
+
+原标题：性能笔记：线程池参数调优任务队列策略
+简介：golang gin 路由动态注册实现方案，根据配置动态注册接口路由，无需硬编码路由，适配动态业务模块。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/30403958.html
+
+原标题：实践：OpenAPI自动生成接口文档完整实践
+简介：golang kitex 字节微服务框架入门，kitex 开发 rpc 微服务，代码生成，服务注册发现完整流程。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/31503928.html
+
+原标题：golang 系统设计 go netpoll 多路复用简单理解
+简介：golang csv 百万级数据导入数据库，流式读取 csv 分批写入数据库，避免一次性加载全部数据。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/52727068.html
+
+原标题：golang 接口返回统一封装工具
+简介：golang udp 服务端客户端开发示例，golang 实现 UDP 服务收发数据包，实现 udp 协议通信程序。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/26362404.html
+
+原标题：golang 系统设计 pre‑commit 钩子本地代码校验
+简介：分布式任务调度集群原型开发，开发简易分布式调度原型，集群多节点运行，保证任务只执行一次。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/44238171.html
+
+原标题：golang 系统设计 graphql 接口优缺点梳理
+简介：golang proto 可选字段处理方案，protobuf 可选字段正确判断，区分未赋值与零值，业务逻辑不出现偏差。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/41816179.html
+
+原标题：CI/CD 流水线自动构建部署落地
+简介：golang 接口返回统一封装工具，封装 Go 接口统一返回工具，标准化成功失败返回结构体。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/30538068.html
+
+原标题：TCP 长连接参数优化 TIME_WAIT
+简介：从零编写简易 CLI 命令行工具，通过实战案例实现基础命令交互，理解命令行程序执行逻辑，产出可运行小工具。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/59694807.html
+
+原标题：开发复盘：异步消息解耦业务流程落地实践
+简介：golang 故障演练服务模拟超时报错，程序模拟接口超时、报错，做混沌测试验证熔断降级有效性。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/52713025.html
+
+原标题：golang kafka 核心概念分区副本
+简介：golang 模板函数自定义拓展，自定义 template 模板函数，在 html 模板调用自定义逻辑处理数据。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/96461404.html
+
+原标题：golang 系统设计分布式锁红锁优缺点梳理
+简介：golang oss 签名 URL 临时访问，生成 oss 临时签名 url，限时访问私有文件，保障文件访问安全可控。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/40412515.html
+
+原标题：golang 单元测试 mock http 请求
+简介：golang os/exec 安全执行外部命令，规避命令注入漏洞，参数分离，禁止拼接命令字符串执行。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/74805817.html
+
+原标题：golang 系统设计 rest http 方法使用原则
+简介：golang html 模板防 xss 自动转义，理解 go html/template 自动转义，防止 XSS 攻击，处理不需要转义场景。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/07169474.html
+
+原标题：设计思考：业务系统如何做故障隔离架构
+简介：golang go 信号处理优雅重启实现，USR2 触发程序重启，不关闭监听 socket 实现零停机升级。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/18350624.html
+
+原标题：golang 系统设计依赖版本升级风险评估
+简介：golang 结构体 json 序列化坑点，梳理 Go 结构体 JSON 序列化高频坑点，字段大小写、零值处理问题。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/64050362.html
+
+原标题：性能复盘：慢查询日积月累拖垮数据库优化
+简介：golang 配置热更新不重启服务，实现配置热加载，监听配置变更，更新内存配置，无需重启服务实例。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/60393706.html
+
+原标题：集成测试业务流程编写示例
+简介：golang context 取消传播机制，父 ctx 取消，所有派生子 context 全部被取消，理解上下文传播。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/28270686.html
+
+原标题：调优方案：CDN优化静态资源访问延迟
+简介：静态网页 HTML CSS 快速入门实战，通过简单页面案例讲解标签、样式布局，从零编写页面，理解网页基础渲染原理。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/48402595.html
+
+原标题：golang redis 缓存更新策略讲解
+简介：Nginx 缓冲区调优大文件上传，调大 Nginx 请求缓冲区，支持客户端上传大体积文件，避免上传被截断。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/18138170.html
+
+三、实战开发｜Practice
+原标题：程序预加载加快服务启动速度
+简介：CI 构建缓存加速编译速度，开启 CI 流水线依赖缓存，复用上一次构建依赖包，缩短流水线构建耗时。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/08280586.html
+
+原标题：从零搭建简单定时任务demo
+简介：看懂报错日志快速定位问题，讲解日志阅读方法，解析堆栈信息含义，学会从报错信息中定位代码出错位置。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/84067363.html
+
+原标题：开发生产环境资源路径统一
+简介：前端权限路由动态生成实现，根据后端返回权限，动态生成前端路由菜单，实现页面权限控制。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/29360373.html
+
+原标题：开源实践：维护开源项目Issue管理经验总结
+简介：SSH 密钥配置 GitHub 免密登录，分步生成配置 SSH 密钥，实现 GitHub 免密推送拉取，免去重复输入账号密码的麻烦。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/74959170.html
+
+原标题：安全笔记：Git仓库密钥硬编码泄露处理方案
+简介：golang os/exec 安全执行外部命令，规避命令注入漏洞，参数分离，禁止拼接命令字符串执行。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/85957362.html
+
+原标题：并发数据覆盖加锁安全处理
+简介：golang go mod graph 可视化依赖图，可视化 go 依赖关系，直观看到包之间依赖，定位冲突。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/27250251.html
+
+原标题：golang etcd watch 监听配置变更
+简介：golang 限流熔断放在代理层实践，代理层统一限流熔断，对后端服务做流量保护。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/29817039.html
+
+原标题：golang 系统设计 rest http 方法使用原则
+简介：golang cobra 命令行参数配置绑定，cobra 绑定配置文件环境变量命令行参数，多源配置合并。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/74148170.html
+
+原标题：Architecture：日志、监控、告警整套可观测架构
+简介：极简 API 网关路由转发实现，开发极简网关服务，完成请求路由转发，理解网关基础实现原理。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/96363691.html
+
+原标题：golang etcd 配置中心简单使用
+简介：golang icmp ping 程序实现，go 实现 ping 工具发送 icmp 报文，检测网络连通性。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/96078473.html
+
+原标题：项目实践：消息队列消息堆积模拟处理实践
+简介：﻿从零搭建本地开发环境完整教程，手把手完成环境配置，梳理踩坑点，帮助开发者快速搭建可用的本地开发环境，降低上手成本。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/06159403.html
+
+原标题：golang 系统设计 graphql 接口优缺点梳理
+简介：golang go mod replace 本地模块替换，replace 替换模块为本地目录，修改第三方库本地调试。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/18138479.html
+
+原标题：golang 系统设计依赖漏洞扫描修复流程
+简介：golang contract 契约测试微服务，微服务契约测试，保证接口变更不破坏调用方，提前发现兼容性问题。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/96038240.html
+
+原标题：踩坑：环境变量未生效导致线上配置错乱
+简介：SSH 密钥配置 GitHub 免密登录，分步生成配置 SSH 密钥，实现 GitHub 免密推送拉取，免去重复输入账号密码的麻烦。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/93906958.html
+
+原标题：编译打包产物依赖分析解读
+简介：golang goroutine 池任务调度，实现 goroutine 池，复用协程，频繁任务场景减少协程创建销毁开销。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/93703736.html
+
+原标题：手写简易 ORM 理解对象映射
+简介：golang consul 服务发现简单示例，对接 Consul 实现服务注册发现，微服务实例自动感知。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/17270280.html
+
+原标题：记一次限流组件误配置把正常用户拦截
+简介：多版本开发环境共存配置，实现同一工具多版本并存，快速切换不同版本，适配不同项目对版本的差异化需求。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/48352626.html
+
+原标题：开发记录：表单参数校验统一中间件实现
+简介：golang excel 生成导出高性能方案，excelize 流式生成 excel，百万行数据导出，规避内存溢出。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/93904946.html
+
+原标题：golang 系统设计数据库死锁分析规避
+简介：golang 跨平台系统差异处理方案，处理 windows linux mac 路径、信号、文件权限差异，代码跨平台兼容。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/93815042.html
+
+原标题：性能复盘：磁盘Swap大量使用系统卡顿优化
+简介：golang ssh 客户端远程命令执行，golang ssh 连接远程服务器，执行 shell 命令，获取命令输出结果。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/25946261.html
+
+原标题：nodejs 数据库连接池配置调优
+简介：golang kitex 中间件与元数据传递，kitex 自定义中间件，透传 traceId 鉴权元数据，统一处理请求。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/72513928.html
+
+原标题：开发复盘：实现定时任务调度服务支持动态任务
+简介：golang GC 频繁 STW 停顿优化，减少小对象分配，调整 GOGC，降低 GC 停顿对接口延迟影响。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/31595685.html
+
+原标题：golang 系统设计本地消息表可靠消息最终一致性
+简介：golang go mod tidy 依赖清理，go mod tidy 自动增删依赖，整理 go.mod go.sum 文件。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/26149161.html
+
+原标题：golang validator 自定义校验规则
+简介：golang go 程序容器资源 requests limits，设置容器 cpu 内存配额，防止实例抢占集群资源，稳定调度。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/82302695.html
+
+原标题：实战项目：搭建本地Mock服务快速开发联调
+简介：golang go select 多路等待 channel，select 等待多个 channel，default 非阻塞，超时等待 channel。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/73524030.html
+
+原标题：设计思考：系统限流熔断降级完整防护体系
+简介：日志输出规范防止磁盘爆满，控制日志输出量，配置日志切割轮转，避免日志文件无限增长占满磁盘。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/71694746.html
+
+原标题：golang 系统设计压测指标确定与分析
+简介：golang time duration 解析时间字符串，time.ParseDuration 解析 1h30m 时间间隔字符串。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/63613037.html
+
+原标题：Hands‑on：静态资源CDN缓存控制头配置实践
+简介：golang sync.Mutex 互斥锁正确模式，互斥锁 defer Unlock，锁粒度控制，避免锁范围过大。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/95169573.html
+
+原标题：Security：RPC调用身份认证安全加固
+简介：全量回归测试提升代码质量，搭建全量回归测试集，版本发布执行回归测试，避免迭代引入旧 bug。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/71581584.html
+
+原标题：golang 表单文件大小限制配置
+简介：git cherry‑pick 规范操作防 bug，规范 cherry‑pick 使用流程，处理冲突，避免错误引入不兼容代码。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/84046081.html
+
+原标题：运维笔记：磁盘inode耗尽故障排查处理
+简介：golang go‑zero 配置中心热更新，go‑zero 对接 etcd 配置中心，配置热更新无需重启服务。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/05127039.html
+
+原标题：golang 系统设计消息重试次数间隔策略设置
+简介：Redis 分布式锁高并发安全实现，基于 Redis 实现分布式锁，处理锁过期、续期，保障集群并发安全。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/07956371.html
+
+原标题：golang 系统设计大表结构变更不停机方案
+简介：golang 处理连接被重置 reset 错误，识别 connection reset by peer，对端关闭连接异常处理逻辑。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/89482413.html
+
+原标题：golang 系统设计测试覆盖率目标合理设定思路
+简介：golang grpc 服务端流推送数据，服务端流式响应，服务端持续向客户端推送多条响应消息。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/52461402.html
+
+原标题：golang 系统设计数据库慢查询治理方案
+简介：golang rsa 非对称加密签名验签，RSA 非对称加密与签名验签，实现非对称安全通信。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/37250581.html
+
+原标题：golang docker 部署 mongodb 开发环境
+简介：golang sync.Map 高并发 map 使用场景，sync.Map 适用场景，读写实操，对比普通 map 加锁性能差异。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/63503839.html
+
+原标题：Hands‑on：shell脚本批量自动化运维小工具
+简介：golang go 依赖漏洞检测 govulncheck，govulncheck 扫描依赖安全漏洞，发现项目供应链风险。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/15130491.html
+
+原标题：Architecture：配置中心架构，动态配置设计思路
+简介：重复提交幂等防护再次讲解，梳理前端重复点击、网络重试场景，落地接口幂等，杜绝重复业务。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/15080795.html
+
+原标题：零基础理解跨域问题产生原因与基础方案
+简介：Redis 热点 key 拆分降低集群压力，拆分访问量极高的热点 Key，分散请求压力，避免 Redis 节点压力过高。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/85725826.html
+
+原标题：部署复盘：服务启动顺序依赖处理方案
+简介：接口限流逻辑简单模拟实现，编写简易限流逻辑，限制接口访问频次，保护服务，避免短时间大量请求压垮系统。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/40691706.html
+
+四、架构设计｜Architecture
+原标题：浮点计算精度错误处理方案
+简介：golang socket 文件描述符继承重启，父进程传递 listener fd 给子进程，实现 go 程序零停机热重启。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/74616948.html
+
+原标题：golang kafka 消息丢失重复消费
+简介：golang base64 编码解码实操，Go Base64 编码解码示例，处理业务场景 Base64 格式数据转换。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/96826725.html
+
+原标题：Hands‑on：编写shell健康检查自动重启脚本
+简介：nodejs 项目 pm2 部署运维指南，使用 PM2 管理 Node 服务，进程守护、日志、重启，线上部署运维实操。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/48570690.html
+
+原标题：方案对比：几种任务队列架构选型优缺点
+简介：golang time 时间格式化避坑，Go 时间格式化参考时间牢记，处理时间解析格式化，解决时间输出错乱。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/37461414.html
+
+原标题：golang 错误包装 errors.wrap 用法
+简介：golang e2e 端到端测试 go 接口，编写 e2e 测试，完整模拟用户请求，校验整套业务链路正确性。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/18381918.html
+
+原标题：大文件导出内存溢出防护
+简介：golang 命令行交互 cobra 开发 cli，cobra 库开发功能完善命令行工具，子命令参数标志解析。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/63725162.html
+
+原标题：手写简易 MQ 理解消息存储消费
+简介：golang go 无锁并发编程技巧，原子操作 sync/atomic，简单场景替换锁，提升并发性能。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/41606958.html
+
+原标题：实战：Nginx负载均衡多种策略配置实践
+简介：golang 自定义 http round tripper，封装 http 客户端拦截，实现请求日志、签名、重试统一处理逻辑。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/29401706.html
+
+原标题：安全复盘：CSRF跨站请求伪造防护配置
+简介：golang http client 全局变量复用，http Client 不要每次请求新建，复用 Transport 提升性能。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/97179584.html
+
+原标题：Redis 大 key 拆分集群卡顿解决
+简介：数据库连接池参数调优，调整连接池最大最小连接数，空闲超时，避免连接耗尽或者资源浪费。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/85916980.html
+
+原标题：安全笔记：请求头伪造IP漏洞防护
+简介：业务接口幂等完整落地案例，完整业务场景幂等落地示例，覆盖表单提交、回调、重试各类场景。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/60805810.html
+
+原标题：性能复盘：热点key导致RedisCPU飙升优化
+简介：golang 僵尸进程处理 go 程序，正确等待子进程退出，避免产生僵尸进程，占用系统进程表。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/17149504.html
+
+原标题：调优方案：MySQL缓冲池参数性能调优实践
+简介：golang yaml 解析配置加载实操，Go 解析 YAML 配置文件，读取配置参数，驱动业务运行。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/85927062.html
+
+原标题：Issue：本地数据库与线上数据库排序规则差异
+简介：布隆过滤器数据高效去重实现，实现布隆过滤器组件，用于海量数据去重，节省大量内存空间。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/28380615.html
+
+原标题：Git 误提交撤销回退实操教程
+简介：golang mysql 长连接检测保活设置，配置 mysql 连接保活检测，剔除失效连接，避免拿到断开无效数据库连接。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/07149404.html
+
+原标题：nodejs 全局异常捕获进程防护
+简介：golang go 变量逃逸场景汇总，切片、指针、返回局部变量引发逃逸，变量分配到堆影响 GC。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/07150586.html
+
+原标题：golang 系统设计配置中心核心能力梳理讲解
+简介：Git 分支切换合并删除完整操作，实操分支全生命周期操作，包含切换、合并、删除，熟悉日常开发分支处理流程。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/96068704.html
+
+原标题：golang 系统设计创建更新时间自动维护方案
+简介：golang fuzz corpus 语料库使用，fuzz 语料存储历史输入，回归测试，持续复现曾经触发 bug 输入。
+ | 原文链接：http://www.blog.nozwnk.cn/flgwf/74059281.html
+
+?
